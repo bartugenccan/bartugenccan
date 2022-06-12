@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Bartu</h1>
-<h3 align="center">A hard-working iOS developer from Turkey.</h3>
+<h3 align="center">A hard-working Web developer from Turkey.</h3>
 
 <p align="left"> <a href="https://twitter.com/bartugenccan" target="blank"><img src="https://img.shields.io/twitter/follow/bartugenccan?logo=twitter&style=for-the-badge" alt="bartugenccan" /></a> </p>
 
