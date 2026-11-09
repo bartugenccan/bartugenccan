@@ -8,7 +8,7 @@
 
 ## AI in production
 
-At Guester I work on **Claire**, the platform's AI assistant for hotel teams (private codebase, so the outline only):
+At Guester I work on **Guester's AI Assistant** for hotel teams (private codebase, so the outline only):
 
 - **Agent flow:** requests are triaged, answered with tool calls over the hotel's own data, and checked before they reach the user.
 - **Retrieval:** RAG over product documentation, so answers about the platform come from its docs.
