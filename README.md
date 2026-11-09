@@ -2,9 +2,19 @@
 
 **Backend AI Engineer.** Five years shipping production web, mobile and backend. Now building the layer AI features run on.
 
-- **Now:** Backend at Guester. A multi-provider ingestion pipeline on BullMQ and Redis, around 30 NestJS modules, MySQL.
+- **Now:** Backend at Guester, a hospitality SaaS. Building the platform underneath: a multi-provider ingestion pipeline on BullMQ and Redis, around 30 NestJS modules, MySQL.
 - **Building:** `groundtruth`, hybrid RAG with a retrieval eval, so a change is proven with a number, not a hunch.
 - **Site:** [bartugenccan.dev](https://bartugenccan.dev)
+
+## AI in production
+
+At Guester I work on **Claire**, the platform's AI assistant for hotel teams (private codebase, so the outline only):
+
+- **Agent flow:** requests are triaged, answered with tool calls over the hotel's own data, and checked before they reach the user.
+- **Retrieval:** RAG over product documentation, so answers about the platform come from its docs.
+- **Voice:** spoken replies alongside text.
+- **MCP server:** read-only, tenant-scoped access to hotel data for outside AI clients, with scoped tokens and redaction.
+- **AI features around it:** review analysis and replies, review translation, scheduled briefs and workflows that run on hotel data.
 
 ## Building in public
 
@@ -26,7 +36,7 @@ Every project runs the same loop: build → break → debug → measure. Repos g
 
 ## Stack
 
-Python · TypeScript · Node.js / NestJS · FastAPI · BullMQ · Redis · MySQL · PostgreSQL · Docker · GitHub Actions
+Python · TypeScript · Node.js / NestJS · FastAPI · LLM tool calling · RAG · MCP · BullMQ · Redis · MySQL · PostgreSQL · Docker · GitHub Actions
 
 ## Contact
 
